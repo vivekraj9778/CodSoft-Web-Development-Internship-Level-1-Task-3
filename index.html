@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wildgrain — Slow-Fermented Sourdough Bakery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..700,0..100&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Wildgrain</div>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#schedule">Bake Schedule</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#menu" class="btn">Order ahead</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="label">Naturally leavened / no commercial yeast</p>
+      <h1>Bread that took <em>three days</em><br>to become simple.</h1>
+      <p class="sub">A neighborhood bakery built around one starter, kept alive since 2016, and the long, slow ferment it takes to turn flour, water, and salt into something worth waiting for.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn">See today's loaves</a>
+        <a href="#schedule" class="btn btn-outline">How we bake</a>
+      </div>
+    </div>
+    <div class="loaf-art">
+      <div class="loaf-score">
+        <svg viewBox="0 0 200 100" preserveAspectRatio="none">
+          <path d="M20,50 Q100,20 180,50" stroke="rgba(0,0,0,0.35)" stroke-width="2" fill="none"/>
+          <path d="M20,60 Q100,32 180,60" stroke="rgba(0,0,0,0.28)" stroke-width="2" fill="none"/>
+          <path d="M20,70 Q100,44 180,70" stroke="rgba(0,0,0,0.22)" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <div class="loaf-tag">72HR FERMENT — BATCH 114</div>
+    </div>
+  </div>
+</section>
+
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <span>SOURDOUGH COUNTRY LOAF</span><span>·</span>
+    <span>ROSEMARY SEA SALT</span><span>·</span>
+    <span>WALNUT & FIG</span><span>·</span>
+    <span>SEEDED RYE</span><span>·</span>
+    <span>SOURDOUGH COUNTRY LOAF</span><span>·</span>
+    <span>ROSEMARY SEA SALT</span><span>·</span>
+    <span>WALNUT & FIG</span><span>·</span>
+    <span>SEEDED RYE</span><span>·</span>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap split">
+    <div>
+      <p class="label">About the bakery</p>
+      <h2>One starter, one oven, a hundred small decisions a day.</h2>
+    </div>
+    <div>
+      <p>Wildgrain started in a home kitchen with a single jar of starter and a habit of baking before sunrise. Every loaf still begins the same way: a levain built the night before, folded by hand, and given time rather than heat to do the work.</p>
+      <p>We mill a portion of our own flour, keep batches small enough to shape by feel, and bake in a deck oven that was rebuilt brick by brick the year we opened our doors.</p>
+      <div class="stat-row">
+        <div class="stat"><b>2016</b><span>Year the starter was born</span></div>
+        <div class="stat"><b>72hrs</b><span>Average ferment time</span></div>
+        <div class="stat"><b>6</b><span>Loaves on the daily menu</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="menu" style="background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="menu-head">
+      <p class="label">Today's menu</p>
+      <h2>Baked once, sold until gone.</h2>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="swatch" style="background:#8A5A28;"></div>
+        <h3>Country Loaf</h3>
+        <p>Our house bread — a blend of bread and whole wheat flour, open crumb, deep crust.</p>
+        <div class="price">$9</div>
+      </div>
+      <div class="menu-card">
+        <div class="swatch" style="background:var(--olive);"></div>
+        <h3>Rosemary Sea Salt</h3>
+        <p>Country dough folded with fresh rosemary, finished with flaked salt before the bake.</p>
+        <div class="price">$10</div>
+      </div>
+      <div class="menu-card">
+        <div class="swatch" style="background:#6E4A22;"></div>
+        <h3>Walnut & Fig</h3>
+        <p>Toasted walnuts and dried mission figs folded through a lightly sweet dough.</p>
+        <div class="price">$12</div>
+      </div>
+      <div class="menu-card">
+        <div class="swatch" style="background:#4A3219;"></div>
+        <h3>Seeded Rye</h3>
+        <p>A denser crumb with caraway and a coat of oats, sunflower, and flax seed.</p>
+        <div class="price">$11</div>
+      </div>
+      <div class="menu-card">
+        <div class="swatch" style="background:var(--amber);"></div>
+        <h3>Morning Buns</h3>
+        <p>Laminated levain dough, baked fresh each morning until the first batch sells out.</p>
+        <div class="price">$5</div>
+      </div>
+      <div class="menu-card">
+        <div class="swatch" style="background:var(--wheat);"></div>
+        <h3>Weekend Focaccia</h3>
+        <p>Saturdays only — olive oil, flaky salt, and whatever's ripe from the garden.</p>
+        <div class="price">$8</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule" class="schedule">
+  <div class="wrap">
+    <div class="menu-head">
+      <p class="label">The signature: how a loaf actually happens</p>
+      <h2>One bread, three days, four moments that matter.</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-time">DAY 1 · 8PM</div>
+        <div class="tl-body">
+          <h3>Feed the levain</h3>
+          <p>Starter is fed with flour and water and left overnight until it doubles and smells faintly of yogurt.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-time">DAY 2 · 9AM</div>
+        <div class="tl-body">
+          <h3>Mix &amp; autolyse</h3>
+          <p>Flour and water rest together before the levain and salt are folded in by hand, no mixer involved.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-time">DAY 2 · 6PM</div>
+        <div class="tl-body">
+          <h3>Shape &amp; cold retard</h3>
+          <p>Dough is shaped, set in bannetons, and moved to the walk-in for a slow, cold overnight rise.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-time">DAY 3 · 6AM</div>
+        <div class="tl-body">
+          <h3>Score &amp; bake</h3>
+          <p>Straight from the fridge into a 480°F deck oven with steam, scored by hand just before it goes in.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="wrap visit">
+    <div>
+      <p class="label">Visit</p>
+      <h2>Come early — the good ones go first.</h2>
+      <div class="visit-list">
+        <div class="visit-row"><span class="label">Address</span><span>412 Millpond Lane</span></div>
+        <div class="visit-row"><span class="label">Hours</span><span>Tue–Sun, 7am – 2pm</span></div>
+        <div class="visit-row"><span class="label">Closed</span><span>Mondays</span></div>
+        <div class="visit-row"><span class="label">Phone</span><span>(555) 014-2290</span></div>
+      </div>
+    </div>
+    <div class="map-block"><div class="map-pin"></div></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-logo">Wildgrain</div>
+      <div class="foot-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#schedule">Bake Schedule</a>
+        <a href="#visit">Visit</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Wildgrain Bakery</span>
+      <span>Baked fresh, sold small.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
